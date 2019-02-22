@@ -24,12 +24,12 @@ self.__precacheManifest = [
     "url": "/nfq-nasa/static/js/main.422801fa.chunk.js"
   },
   {
-    "revision": "674f50d287a8c48dc19ba404d20fe713",
-    "url": "/nfq-nasa/static/media/fontawesome-webfont.674f50d2.eot"
-  },
-  {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/nfq-nasa/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  {
+    "revision": "674f50d287a8c48dc19ba404d20fe713",
+    "url": "/nfq-nasa/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
     "revision": "b06871f281fee6b241d60582ae9369b9",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/nfq-nasa/static/css/2.3a31a81c.chunk.css"
   },
   {
-    "revision": "5b7fbf1ad93afbdab21e130557256e87",
+    "revision": "c749abf14acfbfd0a6c992fa133f5bd7",
     "url": "/nfq-nasa/index.html"
   }
 ];
