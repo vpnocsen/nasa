@@ -1,0 +1,109 @@
+$font-size: 14px;
+$line-height: 1.4;
+$lines-to-show: 4;
+$font-size-title: 24px;
+$lines-to-show-title: 2;
+.item {
+    margin: 10px;
+    width: 380px;
+    margin-bottom: 30px;
+    box-shadow: 0px 15px 15px -10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #e2e2e2;
+    padding: 10px;
+    transition: all 300ms;
+    background-color: white;
+    &:hover {
+        box-shadow: 0 4px 4px rgba(41, 47, 56, .1), 0 8px 8px rgba(41, 47, 56, .1), 0 16px 16px rgba(41, 47, 56, .1), 0 32px 32px rgba(41, 47, 56, .1);
+        transform: translateY(-8px);
+    }
+    video {
+        width: 100%;
+        height: 270px;
+    }
+    .image-item-container {
+        width: 100%;
+        height: 270px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        img {
+            width: 100%;
+        }
+    }
+    .time-section {
+        display: flex;
+        margin-top: 10px;
+    }
+    .title {
+        height: $font-size-title * $line-height * $lines-to-show-title;
+        font-size: $font-size-title;
+        line-height: $line-height;
+        -webkit-line-clamp: $lines-to-show-title;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: block;
+        box-sizing: border-box;
+    }
+    .description {
+        display: block;
+        height: $font-size*$line-height*$lines-to-show;
+        font-size: $font-size;
+        line-height: $line-height;
+        -webkit-line-clamp: $lines-to-show;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .control {
+        display: flex;
+        margin-top: 10px;
+        .btn-add {
+            width: 100%;
+            height: 40px;
+            border: 1px solid #b7b7b7;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            font-size: 18px;
+            color: gray;
+            cursor: pointer;
+            i {
+                position: absolute;
+                left: 15px;
+                font-size: 20px;
+                color: gray;
+            }
+        }
+        .control-item {
+            width: 40px;
+            height: 40px;
+            border: 1px solid gainsboro;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 10px;
+            transition: background-color 300ms;
+            cursor: pointer;
+            &:hover {
+                background-color: #eaeaea;
+            }
+            &:last-child {
+                margin-right: 0px;
+            }
+            i {
+                font-size: 18px;
+            }
+        }
+    }
+}
